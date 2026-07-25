@@ -1,0 +1,123 @@
+/* ===========================
+   기본 설정
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html,
+body{
+
+    width:100%;
+    height:100%;
+    overflow:hidden;
+
+    background:#000;
+
+    font-family:
+    "Pretendard",
+    sans-serif;
+}
+
+
+/* ===========================
+   메인 영역
+=========================== */
+
+.hero{
+
+    width:100vw;
+    height:100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+
+
+/* ===========================
+   이미지 영역
+=========================== */
+
+.image-wrapper{
+
+    position:relative;
+
+    display:inline-block;
+
+}
+
+
+/* 메인 이미지 */
+
+.main-image{
+
+    display:block;
+
+    width:auto;
+
+    height:95vh;
+
+    user-select:none;
+
+}
+
+
+/* ===========================
+   시작 버튼
+=========================== */
+
+.enterBtn{
+
+    position:absolute;
+
+    left:49.8%;
+    top:66.8%;
+
+    transform:translate(-50%,-50%);
+
+    background:none;
+    border:none;
+
+    cursor:pointer;
+
+    transition:.25s;
+
+}
+
+
+/* 버튼 이미지 */
+
+.enterBtn img{
+
+    width:360px;
+
+    display:block;
+
+}
+
+
+/* 호버 */
+
+.enterBtn:hover{
+
+    transform:
+    translate(-50%,-50%)
+    scale(1.05);
+
+}
+
+
+/* 클릭 */
+
+.enterBtn:active{
+
+    transform:
+    translate(-50%,-50%)
+    scale(.97);
+
+}
